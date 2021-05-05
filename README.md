@@ -7,7 +7,7 @@ This is a little project to show how we can start working with Kubernetes cluste
 This sample project has a simple demo solution, you can see it in the following diagram:
 
 _Mongo demo_
-![abstract view](https://github.com/jparanda/code-examples/blob/main/kubernetes_intro/images/demo_diagram.png?raw=true)
+![abstract view](https://github.com/jparanda/kubernetes-intro/blob/master/images/demo_diagram.png?raw=true)
 
 
 You can follow these instructions in order to use this project :
@@ -25,7 +25,7 @@ You can follow these instructions in order to use this project :
 
 Finally you will see the mongo-express web app interface :
 
-![abstract view](https://github.com/jparanda/code-examples/blob/main/kubernetes_intro/images/mongo-express-ui.png?raw=true)
+![abstract view](https://github.com/jparanda/kubernetes-intro/blob/main/images/mongo-express-ui.png?raw=true)
 
 
 Feel free to fork this project to play with it !!
