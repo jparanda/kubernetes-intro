@@ -1,0 +1,90 @@
+------------------------------------
+Kubernetes install minikube commands
+------------------------------------
+
+brew update
+brew install hyperkit
+brew install minikube
+kubectl
+minikube
+
+-----------------------
+Create minikube cluster
+-----------------------
+
+minikube start --vm-driver=hyperkit
+kubectl get nodes
+minikube status
+kubectl version
+
+----------------------------------------
+Delete cluster and restart in debug mode
+----------------------------------------
+
+minikube delete
+minikube start --vm-driver=hyperkit --v=7 --alsologtostderr
+minikube status
+
+Segunda parte 
+
+--------
+Hands on
+--------
+
+kubectl commands
+----------------
+
+kubectl get nodes
+kubectl get pod
+kubectl get services
+kubectl create deployment nginx-depl --image=nginx
+kubectl get deployment
+kubectl get replicaset
+kubectl edit deployment nginx-depl
+
+
+
+Para editar use mongo tag 4.4
+
+
+Debugging
+---------
+
+kubectl logs {pod-name}
+kubectl exec -it {pod-name} -- bin/bash
+
+
+
+Delete pods se elimina el deployment file
+
+
+Demo
+
+Mostrar los yaml file
+
+echo -n 'username' | base64
+
+crear secret service
+
+-- kubectl delete secret db-user-pass
+
+
+crear deployment 
+
+crear service para comunicacion
+
+
+revisar el service describe service 
+
+revisar la ip del mongo pod kubectl get pod -o wide
+
+revisar todo lo creado hasta el momento kubectl get all | grep mongodb
+
+crear mongo express pod
+
+crear mongo express service
+
+asignar ip minikube service mongo-express-service
+
+
+
