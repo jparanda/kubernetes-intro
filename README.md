@@ -25,7 +25,7 @@ You can follow these instructions in order to use this project :
 
 Finally you will see the mongo-express web app interface :
 
-![abstract view](https://github.com/jparanda/kubernetes-intro/blob/main/images/mongo-express-ui.png?raw=true)
+![abstract view](https://github.com/jparanda/kubernetes-intro/blob/master/images/mongo-express-ui.png?raw=true)
 
 
 Feel free to fork this project to play with it !!
